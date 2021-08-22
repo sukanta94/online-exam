@@ -16,7 +16,7 @@ if ($t_con) {
         header("location:profile.php");
         session_create_id();
       } 
-     else {
+      else {
       $err = 1;
     }
   }
