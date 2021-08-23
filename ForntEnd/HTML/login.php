@@ -17,7 +17,7 @@ if ($t_con) {
         session_create_id();
       } 
       else {
-      $err = 2;
+      $err = 1;
     }
   }
   $t_con->close();
