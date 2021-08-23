@@ -35,7 +35,6 @@ if ($t_con) {
 </head>
 <body>
     <h1>Hello login page</h1>
-    <span>2nd pull</span>
     <div>
         <form action="login.php" method="post">
             <input type="t_id" name="id" placeholder="Enter unique Id">
